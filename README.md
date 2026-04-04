@@ -1,7 +1,6 @@
 # Low Level Design (LLD) in Java
 
-This repository contains Low Level Design (LLD) examples and implementations in Java, curated by Prateek Narang.
-
+This repository contains Low Level Design (LLD) examples and implementations in Java.
 ## Overview
 
 Low Level Design focuses on designing the internal structure of individual components or modules. This repo provides practical examples of LLD patterns, principles, and implementations commonly used in software development interviews and real-world applications.
