@@ -7,7 +7,7 @@ Low Level Design focuses on designing the internal structure of individual compo
 
 ## Author
 
-- **Prateek Narang**
+- **Ujjwal Kumar**
 
 ## Language
 
