@@ -1,7 +1,5 @@
-package Beheaviural DP.Observer Pattern.Without BD;
-
 public class WeatherStation {
-    Private float temperature;
+    private float temperature;
     private DisplayDevice displayDevice; // Can be multiple display devices
 
     public WeatherStation(DisplayDevice displayDevice) {
@@ -17,3 +15,4 @@ public class WeatherStation {
     public void notifyDisplayDevice() {
         displayDevice.showTemperature(temperature);
     }
+}
