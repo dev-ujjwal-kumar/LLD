@@ -1,4 +1,4 @@
-package org.example.goodcode;
+package org.example.solid_principles.dip.good_code;
 
 public class SMSService implements NotificationChannel {
     @Override
