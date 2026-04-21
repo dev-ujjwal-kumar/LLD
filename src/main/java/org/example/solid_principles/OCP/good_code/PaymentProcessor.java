@@ -7,7 +7,7 @@ package org.example.solid_principles.ocp.good_code;
 //  pay method and no need to change existing code. so it follows OCP also.
 
 public class PaymentProcessor {
-    public void processPayment(PaymentMethod paymentMethod, Double amount) { // Run time polymorphism
+    public void processPayment(org.example.solid_principles.ocp.good_code.PaymentMethod paymentMethod, Double amount) { // Run time polymorphism
         paymentMethod.pay(amount);
     }
 }
