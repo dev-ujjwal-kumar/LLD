@@ -6,6 +6,8 @@ interface PaymentStrategy {
 
 // concerte strategy
 class CreditCard implements PaymentStrategy{
+    // validate card details
+    // simulate processing
     @Override
     public void processPayment(){
         System.out.println("Processing Payment through: Credit Card");
@@ -13,6 +15,8 @@ class CreditCard implements PaymentStrategy{
 }
 
 class DebitCard implements PaymentStrategy{
+    // validate card detals
+    // Processing
     @Override
     public void processPayment(){
         System.out.println("Processing Payment through: Debit Card");
@@ -20,6 +24,8 @@ class DebitCard implements PaymentStrategy{
 }
 
 class UPI implements PaymentStrategy{
+    // Validate UPI Details
+    // processing
     @Override
     public void processPayment(){
         System.out.println("Processing Payment through: UPI");
