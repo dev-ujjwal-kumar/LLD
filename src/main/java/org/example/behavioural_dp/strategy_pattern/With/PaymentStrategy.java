@@ -26,7 +26,7 @@ class UPI implements PaymentStrategy{
     }
 }
 
-class paymentService{
+class PaymentService{
     private PaymentStrategy paymentStrategy;
 
     public void setPaymentStrategy(PaymentStrategy paymentStrategy){
@@ -40,13 +40,8 @@ class paymentService{
 
 class main{
     public static void main(String[] args) {
-        UPI upi = new UPI();
-        PaymentStrategy paymentStrategy = new PaymentStrategy() {
-            @Override
-            public void processPayment() {
-
-            }
-        }
-        paymentStrategy.se
+        PaymentService paymentService = new PaymentService();
+        paymentService.setPaymentStrategy(new CreditCard());
+        paymentService.pay();
     }
 }
