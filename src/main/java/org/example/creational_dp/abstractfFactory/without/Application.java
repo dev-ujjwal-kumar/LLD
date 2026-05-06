@@ -7,9 +7,9 @@ class WindowsButton{
 }
 
 class WindowsScrollBar{
-    public void render(){
+    public void scroll(){
         // Business logic
-        System.out.println("Rendering Windows Scroll Bar");
+        System.out.println("Scrolling Windows Scroll Bar");
     }
 }
 
@@ -21,9 +21,9 @@ class MacOSButton{
 }
 
 class MacOSScrollBar{
-    public void render(){
+    public void scroll(){
         // Business logic
-        System.out.println("Rendering MacOS Scroll Bar");
+        System.out.println("Scrolling MacOS Scroll Bar");
     }
 }
 public class Application {
@@ -31,9 +31,10 @@ public class Application {
         // Windows UI
         WindowsButton windowsButton = new WindowsButton();
         WindowsScrollBar windowsScrollBar = new WindowsScrollBar();
+        
 
         windowsButton.render();
-        windowsScrollBar.render();
+        windowsScrollBar.scroll();
 
     }
 }
