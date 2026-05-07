@@ -81,7 +81,7 @@ public class Application {
         Application app = new Application(windowsFactory);
         app.renderUI();
 
-        //
+        // we can just replace the with new Factory of type whatever we want.
         Application app1 = new Application(new MacOSFactory());
         app1.renderUI();
 
