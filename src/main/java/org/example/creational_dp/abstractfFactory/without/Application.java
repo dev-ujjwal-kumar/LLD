@@ -17,6 +17,7 @@ class MacOSButton{
     public void render(){
         // business logic
         System.out.println("Rendering MacOS page");
+
     }
 }
 
